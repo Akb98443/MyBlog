@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import postImg from "../assets/post1.jpg";
 
 export default function Post({post}) {
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://myblog-backend-z8sl.onrender.com/images/"
   return (
     <div className="post">
       {post.photo && 
